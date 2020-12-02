@@ -1,0 +1,32 @@
+{
+  "name": "OCM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html && cp _redirects ./dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abbykaemmerer/ocm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbykaemmerer/ocm.git/issues"
+  },
+  "homepage": "https://github.com/abbykaemmerer/ocm.git#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "cloudinary": "^1.18.1",
+    "cloudinary-core": "^2.8.0",
+    "lodash": "^4.17.15",
+    "navigo": "^7.1.2"
+  }
+}
