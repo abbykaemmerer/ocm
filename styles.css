@@ -1,0 +1,50 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #190137;
+  background-color: #ffffff;
+}
+
+header {
+  text-align: center;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  padding: 1.5em 1.02em;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:visited {
+  text-decoration: none;
+  color: #190137;
+}
+
+#dropdown {
+  display: none;
+  position: absolute;
+}
+
+li:hover #dropdown {
+  display: block;
+}
+
+#ocm-logo {
+  width: 20em;
+}
+
+.home-carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
