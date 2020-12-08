@@ -8,10 +8,10 @@ export default (state) => `
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100 fixed-height" src="${state.img2}" alt="First slide">
+        <img class="d-block w-100 fixed-height" src="${state.img1}" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 fixed-height" src="${state.img4}" alt="Second slide">
+        <img class="d-block w-100 fixed-height" src="${state.img2}" alt="Second slide">
       </div>
       <div class="carousel-item">
         <img class="d-block w-100 fixed-height" src="${state.img3}" alt="Third slide">
@@ -26,9 +26,9 @@ export default (state) => `
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <p>
-  At Outdoor Color Magic cultivating the environment is our life and our livelihood.  Our mission is to help our clients create artistic outdoor space while reducing the impact on the environment.
-  Outdoor Color Magic offers Environmental Architecture, Living Horticulture and Artful Seasonal Color.  Our staff of architects and horticulturalists can help you create anything you want while protecting your investment.  Our crew is the heart and soul of our company.  Their training, creativity, initiative and dedication are what sets us apart from the competition.
-  We care for the environment by incorporating drought resistant plants, composting all used plant material back into the earth, limiting the use of plastic pots and using integrated pest management principles.  All of this keeps your plants healthy now and vibrant throughout the season.
-  </p>
+  <div class="buttons">
+    <a href="./About">Living Horticulture</a>
+    <a href="./About">Environmental Architecture</a>
+    <a href="./About">Seasonal Color</a>
+  </div>
 </div>`;

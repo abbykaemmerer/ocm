@@ -1,31 +1,49 @@
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #190137;
-  background-color: #ffffff;
+  background-color: #f7f5e9;
 }
 
-header {
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+header, footer {
   text-align: center;
+}
+
+footer {
+  margin: 3em 0;
+}
+
+hr {
+  width: 55%;
+}
+
+footer i {
+  padding: 5px;
 }
 
 .nav {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 0 0 3em 0;
   padding: 0;
 }
 
 .nav li {
-  padding: 1.5em 1.02em;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 15px;
 }
 
-.nav a {
+a {
   text-decoration: none;
 }
 
-.nav a:visited {
+a:visited {
   text-decoration: none;
   color: #190137;
 }
@@ -41,6 +59,7 @@ li:hover #dropdown {
 
 #ocm-logo {
   width: 20em;
+  margin: 1em 6em;
 }
 
 .home-carousel {
@@ -48,3 +67,34 @@ li:hover #dropdown {
   margin: 0 auto;
 }
 
+.medias-div {
+  margin: 3em;
+  font-size: 1.3em;
+}
+
+.medias-div h1 {
+  font-size: 1.3em;
+}
+
+.medias-div:first-of-type(div) {
+  margin: 2em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3em;
+}
+
+.buttons a {
+  border: 2px solid #190137;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.buttons a:hover {
+  text-decoration: none;
+  font-weight: 900;
+  border: 3px solid #190137;
+}

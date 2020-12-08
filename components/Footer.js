@@ -1,7 +1,20 @@
 export default () => `  <footer>
-&copy; 2019 Abby Kaemmerer
-<a href="https://github.com/abbykaemmerer" target="_blank">
-  <span class="fab fa-github"></span"></a>
-<a href="https://www.linkedin.com/in/abby-kaemmerer-80331766/" target="_blank">
-  <span class="fab fa-linkedin"></span></a>
+<div class="medias-div">
+<hr/>
+  <div>
+    <h1>Find Us Here</h1>
+    <div>
+    <i class="far fa-envelope"></i>
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-instagram"></i>
+    </div>
+  </div>
+<hr/>
+</div>
+<div>
+&copy; Outdoor Color Magic
+  <div>
+  Built By Abby Kaemmerer
+  </div>
+</div>
 </footer>`;

@@ -23,6 +23,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "axios": "^0.18.1",
     "cloudinary": "^1.18.1",
     "cloudinary-core": "^2.8.0",
