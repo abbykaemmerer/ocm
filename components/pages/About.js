@@ -1,4 +1,4 @@
-export default (state) => `
+export default () => `
 <div class="about">
 <p>
 At Outdoor Color Magic cultivating the environment is our life and our livelihood.

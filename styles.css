@@ -57,10 +57,14 @@ a:visited {
 #dropdown {
   display: none;
   position: absolute;
+  position: absolute;
+  /* top: 175px;
+  left: 25%; */
 }
 
 li:hover #dropdown {
   display: block;
+  background: transparent;
 }
 
 #ocm-logo {
@@ -104,4 +108,58 @@ li:hover #dropdown {
   border: 2px solid #190137;
   color: #f7f5e9;
   background-color: #190137;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 48.5%
+}
+
+.name {
+  display: flex;
+}
+
+.column input {
+  width: 95%;
+}
+
+.column span {
+  font-size: 13px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form legend {
+  font-size: 18px;
+}
+
+.form div {
+  margin: 0 0 25px 0;
+}
+
+.form-padding {
+  padding: 30px;
+}
+
+.form img {
+  padding-top: 40px;
+}
+
+.form input, textarea {
+  border-bottom: black solid 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 2px;
+  width: 95%;
+  outline: none;
+
+}
+
+.submit input{
+  border: none;
 }
