@@ -11,14 +11,14 @@ function buildNavHTML(stateLinks){
 export default (state) => `<header>
 <nav>
   <ul class="nav">
-  ${buildNavHTML(state.links.maybe)}
+    ${buildNavHTML(state.links.maybe)}
     <li>
-    Services
-      <ul id="dropdown">
-      ${buildNavHTML(state.links.dropdown)}
-      </ul>
+      Services
+        <ul id="dropdown">
+        ${buildNavHTML(state.links.dropdown)}
+        </ul>
     </li>
-    <img src="${state.img}" id="ocm-logo">
+<img src="${state.img}" id="ocm-logo">
   ${buildNavHTML(state.links.primary)}
   </ul>
 </nav>

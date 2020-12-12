@@ -58,14 +58,19 @@ a:visited {
 #dropdown {
   display: none;
   position: absolute;
-  position: absolute;
-  /* top: 175px;
-  left: 25%; */
+  top: 18%;
+  left: 27.5%;
+  line-height: .5;
 }
 
 li:hover #dropdown {
   display: block;
   background: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 #ocm-logo {
