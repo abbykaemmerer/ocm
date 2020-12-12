@@ -56,32 +56,20 @@ export default (state) => `
       </div>
     </div>
   </div>
-  <div class="gallery">
+  <div class="hort-gallery">
     <div>
       <img src="${state.img1}">
-    </div>
-    <div>
       <img src="${state.img2}">
-    </div>
-    <div>
       <img src="${state.img3}">
     </div>
     <div>
       <img src="${state.img4}">
-    </div>
-    <div>
       <img src="${state.img5}">
-    </div>
-    <div>
       <img src="${state.img6}">
     </div>
     <div>
       <img src="${state.img7}">
-    </div>
-    <div>
       <img src="${state.img8}">
-    </div>
-    <div>
       <img src="${state.img9}">
     </div>
   </div>

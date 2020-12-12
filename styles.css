@@ -165,16 +165,6 @@ li:hover #dropdown {
   border: none;
 }
 
-.gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.gallery img {
-  padding: 10px;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -269,11 +259,21 @@ li:hover #dropdown {
   width: fit-content;
 }
 
-.seasonal-gallery{
+.seasonal-gallery, .hort-gallery, .arch-gallery{
   text-align: center;
 }
 
 .seasonal-gallery img{
   width: 18%;
   padding: 10px;
+}
+
+.hort-gallery img{
+  width: 30%;
+  padding: 15px;
+}
+
+.arch-gallery img {
+  padding: 5px;
+  width: 30%;
 }
