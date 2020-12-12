@@ -9,9 +9,9 @@ export default (state) => `<section class="form">
   </p>
 
   <form
-    action="https://formspree.io/f/xknpqrrg"
-    method="POST"
-  >
+  action="https://formspree.io/f/xknpqrrg"
+  method="POST"
+>
     <legend>Who are you?</legend>
     <div class="name">
       <label class="column">

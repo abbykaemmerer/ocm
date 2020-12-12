@@ -1,5 +1,3 @@
-import Navigation from './components/Navigation';
-
 import Header from './components/Header';
 
 import Main from './components/Main';
@@ -18,7 +16,6 @@ const root = document.querySelector('#root');
 
 function render(state){
     root.innerHTML = `
-${Navigation(state)}
 ${Header(state)}
 ${Main(state)}
 ${Footer(state)}

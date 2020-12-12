@@ -1,5 +1,5 @@
 export default () => `
-<div class="about">
+<div class="paragraph">
 <p>
 At Outdoor Color Magic cultivating the environment is our life and our livelihood.
 </p>

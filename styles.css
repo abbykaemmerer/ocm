@@ -6,6 +6,7 @@
 
 h1 {
   font-family: 'Anton', sans-serif;
+  margin: 1em 0;
 }
 
 header, footer {
@@ -24,7 +25,7 @@ footer i {
   padding: 5px;
 }
 
-.about {
+.paragraph {
   margin: 0 auto;
   width: 70%;
   line-height: 2;
@@ -162,4 +163,72 @@ li:hover #dropdown {
 
 .submit input{
   border: none;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "weekly seasonal";
+}
+.seasonal { grid-area: seasonal; }
+.weekly {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 1.5fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "."
+    "lists";
+  grid-area: weekly;
+}
+.lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". .";
+  grid-area: lists;
+  padding: 15px;
+}
+
+.weekly, .seasonal {
+  border: 2px solid #302e07;
+  margin: 10px;
+  border-radius: 3px;
+  box-shadow: #2f2d06 2px 1px 5px 1px;
+}
+
+.desc {
+  text-align: center;
+}
+
+.desc h4 {
+  background: #32300b;
+  color: #f7f5e9;
+  padding: 15px;
+  margin: 0;
+}
+
+.desc p {
+  background: #64630eb5;
+  color: #f7f5e9;
+  padding: 15px;
+}
+
+.margin-bottom {
+  margin-bottom: 2em;
 }

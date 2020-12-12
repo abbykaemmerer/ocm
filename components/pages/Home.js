@@ -27,7 +27,7 @@ export default (state) => `
     </a>
   </div>
   <div class="buttons">
-    <a href="./LH">Living Horticulture</a>
+    <a href="./Horticulture">Living Horticulture</a>
     <a href="./EnvironmentalArch">Environmental Architecture</a>
     <a href="./SC">Seasonal Color</a>
   </div>
