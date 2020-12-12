@@ -74,7 +74,7 @@ li:hover #dropdown {
 }
 
 .home-carousel {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -231,4 +231,49 @@ li:hover #dropdown {
 
 .margin-bottom {
   margin-bottom: 2em;
+}
+
+.team-container img {
+  width: 70%;
+  margin-left: 11em;
+}
+
+.team-container {
+  flex-direction: column;
+  align-items: center;
+  margin: 3em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". .";
+}
+
+.team {
+  margin: 3em;
+}
+
+.team div {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.team h2 {
+  border-bottom: black solid 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 2px;
+  width: fit-content;
+}
+
+.seasonal-gallery{
+  text-align: center;
+}
+
+.seasonal-gallery img{
+  width: 18%;
+  padding: 10px;
 }
