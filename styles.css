@@ -135,8 +135,12 @@ a:hover {
 }
 
 .form {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". .";
 }
 
 .form legend {
@@ -151,8 +155,22 @@ a:hover {
   padding: 30px;
 }
 
+.form-width {
+  width: 70%;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
 .form img {
   padding-top: 40px;
+  width: 70%;
+}
+
+.justify-img {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .form input, textarea {
@@ -163,7 +181,6 @@ a:hover {
   border-radius: 2px;
   width: 95%;
   outline: none;
-
 }
 
 .submit input{

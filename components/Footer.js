@@ -4,7 +4,7 @@ export default () => `  <footer>
   <div>
     <h1>Find Us Here</h1>
     <div>
-    <i class="far fa-envelope"></i>
+    <a href = "mailto: outdoorcolormagic@gmail.com"><i class="far fa-envelope"></i></a>
     <i class="fab fa-facebook-f"></i>
     <i class="fab fa-instagram"></i>
     </div>
