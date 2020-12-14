@@ -8,7 +8,7 @@ export default (state) => `
   <div class="arch-gallery">
     <div>
       <img src="${state.img1}">
-      <img src="${state.img2}">
+      <img src="https://res.cloudinary.com/abbykaemmerer/image/upload/v1607960212/OCM/IMG_6628_oewgzp.jpg">
       <img src="${state.img3}">
     </div>
     <div>

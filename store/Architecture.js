@@ -1,7 +1,6 @@
 import links from './Links';
 import img from '../pics/OCM-transparent1.png';
 import img1 from '../pics/Environmental Architecture/IMG_1490.jpeg';
-import img2 from '../pics/Environmental Architecture/IMG_6628.jpg';
 import img3 from '../pics/Environmental Architecture/IMG_6653.jpg';
 import img4 from '../pics/Environmental Architecture/IMG_6669.jpg';
 import img5 from '../pics/Environmental Architecture/IMG_6681.jpeg';
@@ -17,7 +16,6 @@ export default {
     'links': links,
     'img': img,
     'img1': img1,
-    'img2': img2,
     'img3': img3,
     'img4': img4,
     'img5': img5,
