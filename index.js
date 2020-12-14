@@ -12,10 +12,10 @@ import Navigo from 'navigo';
 
 const router = new Navigo(window.location.origin);
 
-const root = document.querySelector('#root');
+const content = document.querySelector('#content');
 
 function render(state){
-    root.innerHTML = `
+    content.innerHTML = `
 ${Header(state)}
 ${Main(state)}
 ${Footer(state)}
