@@ -12,7 +12,7 @@ export default (state) => `
       <img src="${state.img3}">
     </div>
     <div>
-      <img src="${state.img4}">
+      <img src="https://res.cloudinary.com/abbykaemmerer/image/upload/v1607960674/OCM/IMG_6669_ssfrkc.jpg">
       <img src="${state.img5}">
       <img src="${state.img6}">
     </div>
