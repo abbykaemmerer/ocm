@@ -185,8 +185,26 @@ a:hover {
   outline: none;
 }
 
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
 .submit input{
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
   border: none;
+  border: 2px solid #a18cb6;
+  width: max-content;
+  padding: 10px 20px;
+  box-shadow: #a18cb68a 5px 5px;
+  color: #a18cb6;
+}
+
+.submit input:hover {
+  background-color: #a18cb6;
+  color: #f7f5e9;
+  cursor: pointer;
 }
 
 .grid-container {

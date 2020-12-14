@@ -6,7 +6,7 @@ export default (state) => `
   <div class="form-padding form-width">
     <p>
     <h1>Say Hey!</h1>
-    Contact us for project inquiries, hiring possibilities or just to introduce yourself. We're <span class="bold">otterly</span> excited to meet you!
+    Contact us for project inquiries, hiring possibilities or just to introduce yourself. <br> We're <span class="bold">otterly</span> excited to meet you!
     </p>
 
     <form
@@ -42,7 +42,7 @@ export default (state) => `
       </div>
 
       <div class="submit">
-        <input type="submit" value="Send Message" />
+        <input type="submit" value="SEND" />
       </div>
     </form>
 
