@@ -12,7 +12,6 @@ export default (state) => `
             <p>The weekly program is designed for those who expect proper horticulture care for their exterior space.</p>
           </div>
           <div class="lists">
-
             <div>
               <ul>
               <li>Hard pruning of ornamental plant material</li>

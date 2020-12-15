@@ -265,40 +265,28 @@ a:hover {
   margin-bottom: 2em;
 }
 
-.team-container img {
-  width: 70%;
-  margin-left: 11em;
+.team-pic img {
+  width: 40%;
 }
 
-.team-container {
-  flex-direction: column;
-  align-items: center;
-  margin: 3em 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    ". .";
+.team-pic {
+  display: flex;
+  justify-content: center;
 }
 
 .team {
-  margin: 3em;
+  text-align: center;
+  margin: 25px;
 }
 
-.team div {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
+.team p {
+  font-size: 17px;
+  margin: 1em;
 }
 
-.team h2 {
-  border-bottom: black solid 2px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 2px;
-  width: fit-content;
+.team span {
+  font-weight: bolder;
+  font-size: 22px;
 }
 
 .seasonal-gallery, .hort-gallery, .arch-gallery{
@@ -318,4 +306,52 @@ a:hover {
 .arch-gallery img {
   padding: 5px;
   width: 30%;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  padding: 15px;
+  border-top: 15px solid #4a2d6ad6;
+}
+
+.team h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.7em;
+}
+.accolades {
+  margin: 2em auto;
+  border: 2px solid #190137;
+  border-radius: 3px;
+  box-shadow: #19013799 2px 1px 5px 1px;
+  width: 55%;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.accolades h2 {
+  font-size: 1.5em;
+  background: #190137;
+  color: #f7f5e9;
+  padding: 15px;
+  margin: 0;
+}
+
+.tag {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2em;
+}
+
+.underline {
+  border-bottom: black solid 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 2px;
+  width: max-content;
+  margin: 0 auto;
 }

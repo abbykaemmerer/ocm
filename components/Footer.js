@@ -13,8 +13,10 @@ export default () => `  <footer>
 </div>
 <div>
 &copy; Outdoor Color Magic
-  <div>
-  Built By Abby Kaemmerer
-  </div>
+<div>
+  Built By
+  <a href="https://www.linkedin.com/in/abby-kaemmerer-80331766/" target="_blank">
+  Abby Kaemmerer
+  </a>
 </div>
 </footer>`;
