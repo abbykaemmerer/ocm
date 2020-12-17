@@ -8,7 +8,8 @@ function buildNavHTML(stateLinks){
     return linksHTML;
 }
 
-export default (state) => `<header>
+export default (state) => `
+<header id="secondary">
 <nav>
   <ul class="nav">
     ${buildNavHTML(state.links.maybe)}

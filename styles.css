@@ -4,6 +4,18 @@
   background-color: #f7f5e9;
 }
 
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
 h1 {
   font-family: 'Anton', sans-serif;
   margin: 1em 0;
