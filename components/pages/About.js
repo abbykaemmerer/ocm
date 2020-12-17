@@ -21,7 +21,7 @@ export default (state) => `
   </div>
   <div>
     <p>
-    At Outdoor Color Magic, we have a combined 40 years experience in all facets of the environmental green industry with a focus on exceeding customer expectations.  Our team is widely regarded by industry experts and the St. Louis market place.  We are visionary leaders in the architecture, horticulture and floriculture fields.
+    At Outdoor Color Magic, we have a combined 40 years experience in all facets of the environmental green industry with a focus on exceeding customer expectations.  Our team is widely regarded by industry experts and the St. Louis market place.  We are visionary leaders in the architecture, horticulture and seasonal color fields.
     </p>
   </div>
   <div class="accolades">
@@ -39,7 +39,7 @@ export default (state) => `
         <ul>
           <li>Team member of the ABC Extreme Home Makeover Home Edition</li>
           <li>Team member of the Missouri Botanical Gardens</li>
-          <li>Developed 10 Master planned communities including 5400 homes, the environmental architecture, living horticulture and floriculture</li>
+          <li>Developed 10 Master planned communities including 5400 homes, the environmental architecture, living horticulture and seasonal color</li>
         </ul>
       </div>
     </div>

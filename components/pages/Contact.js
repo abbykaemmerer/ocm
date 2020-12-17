@@ -1,4 +1,5 @@
 export default (state) => `
+<div>
 <section class="form">
   <div class="form-padding justify-img">
     <img src="${state.img1}" alt="Waving little guy.">
@@ -45,6 +46,14 @@ export default (state) => `
         <input type="submit" value="SEND" />
       </div>
     </form>
-
   </div>
-</section>`;
+</section>
+<section>
+  <div class="phone">
+  <p>Monday - Thursday</p>
+  <p>7am - 5pm CST</p>
+  <p><a href="tel:314-634-4750">314-634-4750</a></p>
+  </div>
+</section>
+</div>
+`;
