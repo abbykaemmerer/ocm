@@ -13,7 +13,7 @@ export default (state) => `
     </p>
   </div>
   <div class="team-pic">
-    <img src="${state.img1}">
+    <img src="${state.img1}" id="team-pic">
   </div>
   <div class="team">
     <h2 class="underline">Meet The Touch of Magic Team</h2>
@@ -24,7 +24,7 @@ export default (state) => `
     At Outdoor Color Magic, we have a combined 40 years experience in all facets of the environmental green industry with a focus on exceeding customer expectations.  Our team is widely regarded by industry experts and the St. Louis market place.  We are visionary leaders in the architecture, horticulture and seasonal color fields.
     </p>
   </div>
-  <div class="accolades">
+  <div class="accolades" id="accolades">
     <h2 class="center-align">Team Accolades</h2>
     <div class="team-container">
       <div>

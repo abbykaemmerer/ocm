@@ -5,8 +5,8 @@ export default (state) => `
       <h3>Residential Horticulture Programs</h3>
       <p class="margin-bottom"> We offer two outstanding residential outdoor environment programs.  Each program ensures that our client’s investment is properly maintained though horticultural excellence.
       </p>
-      <div class="grid-container margin-bottom">
-        <div class="weekly">
+      <div class="grid-container margin-bottom" id="grid-container">
+        <div class="weekly" id="weekly">
           <div class="desc">
             <h4>Weekly Care Program</h4>
             <p>The weekly program is designed for those who expect proper horticulture care for their exterior space.</p>
@@ -36,7 +36,7 @@ export default (state) => `
             </div>
           </div>
         </div>
-        <div class="seasonal">
+        <div class="seasonal" id="seasonal">
           <div class="desc">
             <h4>Seasonal Horticulture Care Program</h4>
             <p>

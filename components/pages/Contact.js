@@ -2,9 +2,9 @@ export default (state) => `
 <div>
 <section class="form">
   <div class="form-padding justify-img">
-    <img src="${state.img1}" alt="Waving little guy.">
+    <img src="${state.img1}" alt="Waving little guy." id="contact-photo">
   </div>
-  <div class="form-padding form-width">
+  <div class="form-padding form-width" id="form-width">
     <p>
     <h1>Say Hey!</h1>
     Contact us for project inquiries, hiring possibilities or just to introduce yourself. <br> We're <span class="bold">otterly</span> excited to meet you!

@@ -1,4 +1,4 @@
-export default () => `  <footer>
+export default () => `  <footer id="tertiary">
 <div class="medias-div">
 <hr/>
   <div>

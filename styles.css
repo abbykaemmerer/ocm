@@ -6,15 +6,48 @@
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-  #primary { width:67%; }
-  #secondary { width:30%; margin-left:3%;}
+  /* #primary { width:67%; }
+  #secondary, #tertiary { width:30%; margin-left:3%;} */
+
 }
 
 /* Media Queries: Tabled Portrait */
 @media screen and (max-width: 768px) {
   #primary { width:100%; }
-  #secondary { width:100%; margin:0; border:none; }
+  #secondary, #tertiary { width:100%; margin:0; border:none; }
 }
+
+@media screen and (max-width: 1024px) {
+  .form {
+    margin: 20px;
+  }
+
+  #contact-photo, #form-width, #accolades {
+    width: fit-content;
+  }
+
+  #team-pic {
+    width: 60%;
+  }
+
+  #grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #weekly, #seasonal {
+    width: 70%;
+    margin: 1em;
+  }
+
+}
+
+
+html { font-size:100%; }
+
+@media (min-width: 640px) { body {font-size:.8rem;} }
+@media (min-width:960px) { body {font-size:1rem;} }
+@media (min-width:1100px) { body {font-size:1.2rem;} }
 
 h1 {
   font-family: 'Anton', sans-serif;
@@ -35,6 +68,20 @@ hr {
 
 footer i {
   padding: 5px;
+}
+
+img { max-width: 100%; height: auto; }
+
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+      content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
 }
 
 .paragraph {
@@ -69,10 +116,8 @@ a:visited {
 }
 
 #dropdown {
-  display: none;
+  /* display: none; */
   position: absolute;
-  top: 18%;
-  left: 27.5%;
   line-height: .5;
 }
 
@@ -377,7 +422,7 @@ a:hover {
   padding: 20px;
 }
 
-.phone p, h3 {
+.phone p, .phone h3 {
   text-align: center;
   margin: 0;
 }
