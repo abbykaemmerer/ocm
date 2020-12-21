@@ -1,12 +1,12 @@
 export default (state) => `
 <div>
-<section class="form">
-  <div class="form-padding justify-img">
+<section class="form" id="form">
+  <div class="form-padding justify-img" id="contact-photo-div">
     <img src="${state.img1}" alt="Waving little guy." id="contact-photo">
   </div>
   <div class="form-padding form-width" id="form-width">
     <p>
-    <h1>Say Hey!</h1>
+    <h1 id="hey">Say Hey!</h1>
     Contact us for project inquiries, hiring possibilities or just to introduce yourself. <br> We're <span class="bold">otterly</span> excited to meet you!
     </p>
 
@@ -49,7 +49,7 @@ export default (state) => `
   </div>
 </section>
 <section>
-  <div class="phone">
+  <div class="phone" id="phone">
   <p>Monday - Thursday</p>
   <p>7am - 5pm CST</p>
   <p><a href="tel:314-634-4750">314-634-4750</a></p>

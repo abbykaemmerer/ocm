@@ -55,6 +55,9 @@ export default (state) => `
       </div>
     </div>
   </div>
+  <div class="ocm-symbol">
+  <img src="${state.img10}">
+  </div>
   <div class="hort-gallery">
     <div>
       <img src="${state.img1}">

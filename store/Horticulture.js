@@ -9,6 +9,7 @@ import img6 from '../pics/Residential Horticulture/IMG_6623.jpeg';
 import img7 from '../pics/Residential Horticulture/IMG_6624.jpeg';
 import img8 from '../pics/Residential Horticulture/IMG_6625.jpeg';
 import img9 from '../pics/Residential Horticulture/IMG_6620.jpeg';
+import img10 from '../pics/image 3.png';
 
 
 export default {
@@ -25,4 +26,5 @@ export default {
     'img7': img7,
     'img8': img8,
     'img9': img9,
+    'img10': img10
 };

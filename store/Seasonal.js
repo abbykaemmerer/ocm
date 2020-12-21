@@ -15,7 +15,7 @@ import img12 from '../pics/Seasonal Color/IMG_6627.jpeg';
 import img13 from '../pics/Seasonal Color/IMG_6644.jpeg';
 import img14 from '../pics/Seasonal Color/IMG_6617.jpeg';
 import img15 from '../pics/Seasonal Color/IMG_0023.jpeg';
-
+import img16 from '../pics/image 3.png';
 
 export default {
     'pageContent': 'Seasonal',
@@ -37,5 +37,5 @@ export default {
     'img13': img13,
     'img14': img14,
     'img15': img15,
-
+    'img16': img16
 };
