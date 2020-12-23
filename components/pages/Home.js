@@ -26,9 +26,9 @@ export default (state) => `
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <div class="buttons">
-    <a href="./Horticulture">Living Horticulture</a>
+  <div class="buttons" id="buttons">
     <a href="./EnvironmentalArch">Environmental Architecture</a>
-    <a href="./Seasonal">Seasonal Color</a>
+    <a href="./Horticulture">Living Horticulture</a>
+    <a href="./Seasonal">&nbsp&nbsp&nbspSeasonal&nbsp&nbsp Color</a>
   </div>
 </div>`;
