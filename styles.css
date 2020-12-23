@@ -24,6 +24,7 @@
 
   #contact-photo, #form-width, #accolades {
     width: fit-content;
+    height: auto;
   }
 
   #grid-container {
@@ -44,6 +45,7 @@
 
   #ocm-logo {
     width: 30vw;
+    height: auto;
     margin: 0;
   }
 
@@ -111,6 +113,11 @@
     padding: 0;
   }
 
+  .team-pic img {
+    width: 70vw;
+    height: auto;
+  }
+
   #form-width, #contact-photo-div {
     padding: 0;
   }
@@ -155,7 +162,7 @@
   }
 
   #arch-symbol img{
-    width: 3em;
+    width: 2em;
   }
 
   #dropdown {
