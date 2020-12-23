@@ -105,7 +105,7 @@ footer i {
 
 img { max-width: 100%; height: auto; }
 
-@media (min-device-width:600px) {
+/* @media (min-device-width:600px) {
   img[data-src-600px] {
       content: attr(data-src-600px, url);
   }
@@ -115,7 +115,7 @@ img { max-width: 100%; height: auto; }
   img[data-src-800px] {
       content: attr(data-src-800px, url);
   }
-}
+} */
 
 .paragraph {
   margin: 0 auto;
@@ -166,7 +166,6 @@ a:hover {
 }
 
 .ocm-logo {
-  width: 20em;
   margin: 1em 6em;
 }
 
