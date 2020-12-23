@@ -111,13 +111,13 @@
   #contact-photo {
     margin: 0 0 2em 0;
     padding: 0;
-    width: 90vw;
-    height: 60vh;
+    width: 400px;
+    height: 450px;
   }
 
   .team-pic img {
-    width: 70vw;
-    height: 50vh;
+    width: 300px;
+    height: 350px;
   }
 
   #form-width, #contact-photo-div {
