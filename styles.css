@@ -139,6 +139,9 @@
     width: 3em;
   }
 
+  #dropdown {
+    top: .6em;
+    right: 3em;}
 }
 
 @media screen and (max-width: 375px) {
@@ -252,6 +255,11 @@
     width: 24em;
   }
 
+  #dropdown {
+    top: 2em;
+    right: 1.7em;
+  }
+
 }
 
 @media (max-width: 640px) { body {font-size:.8rem;} }
@@ -302,6 +310,10 @@ img { max-width: 100%; height: auto; }
   display: flex;
   align-items: center;
   padding: 15px;
+}
+
+#dropdown li {
+  background: transparent;
 }
 
 a {
