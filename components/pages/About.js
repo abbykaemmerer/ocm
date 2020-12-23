@@ -16,8 +16,8 @@ export default (state) => `
     <img src="${state.img1}" id="team-pic">
   </div>
   <div class="team">
-    <h2 class="underline">Meet The Touch of Magic Team</h2>
-    <p>JOEL THODE <span>|</span> ANNE BOURNEUF <span>|</span> SEAN KRAHAM</p>
+    <h2 class="underline" id="team-header">Meet The Touch of Magic Team</h2>
+    <p id="members">JOEL THODE <span id="pipe">|</span> ANNE BOURNEUF <span id="pipe">|</span> SEAN KRAHAM</p>
   </div>
   <div>
     <p>

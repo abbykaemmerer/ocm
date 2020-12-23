@@ -73,6 +73,19 @@
   #nav .nav{
     margin: 0;
   }
+
+  #team-header {
+    font-size: 1.2em;
+  }
+
+  #members {
+    font-size: .8em;
+    margin: 0;
+  }
+
+  #pipe {
+    font-size: 1.5em;
+  }
 }
 
 
