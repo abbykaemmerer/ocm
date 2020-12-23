@@ -39,7 +39,18 @@
 
 @media screen and (max-width: 414px) {
   #ocm-logo {
-    width: 50%;
+    width: 150px;
+    margin: 0;
+  }
+
+  #carouselExampleIndicators{
+    width: 85%;
+    margin: 4em auto;
+  }
+
+  #nav {
+    font-size: .8em;
+    margin: 2em 0;
   }
 
   #buttons a {
@@ -59,6 +70,10 @@
 
   #tertiary .medias-div{
     margin: 2em;
+  }
+
+  #tertiary hr{
+    width: 75%;
   }
 
   #team-header {
@@ -140,8 +155,13 @@
   }
 
   #dropdown {
-    top: .6em;
-    right: 3em;}
+    top: 10em;
+    left: 2em;
+  }
+
+  #dropdown li {
+    padding: 5px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -151,7 +171,7 @@
   }
 
   #ocm-logo {
-    width: 50%;
+    width: 120px;
   }
 
   #hey {
@@ -181,6 +201,19 @@
     margin: 0;
   }
 
+  #nav li {
+    padding: 10px;
+  }
+
+  #dropdown li {
+    padding: 5px;
+  }
+
+  #dropdown {
+    top: 8em;
+    right: 1.7em;
+  }
+
   #team-header {
     font-size: 1.2em;
   }
@@ -253,11 +286,6 @@
 
   #seasonal-symbol img {
     width: 24em;
-  }
-
-  #dropdown {
-    top: 2em;
-    right: 1.7em;
   }
 
 }
