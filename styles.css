@@ -38,8 +38,12 @@
 }
 
 @media screen and (max-width: 414px) {
+  #secondary {
+    margin: 4em 0;
+  }
+
   #ocm-logo {
-    width: 150px;
+    width: 20vh;
     margin: 0;
   }
 
@@ -167,11 +171,11 @@
 @media screen and (max-width: 375px) {
 
   #secondary {
-    margin: 1em;
+    margin: 4em 0;
   }
 
   #ocm-logo {
-    width: 120px;
+    width: 15vh;
   }
 
   #hey {
