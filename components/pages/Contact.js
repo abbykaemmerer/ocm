@@ -51,7 +51,7 @@ export default (state) => `
 <section>
   <div class="phone" id="phone">
   <p>Monday - Thursday</p>
-  <p>7am - 5pm CST</p>
+  <p>9am - 5pm CST</p>
   <p><a href="tel:314-634-4750">314-634-4750</a></p>
   </div>
 </section>
