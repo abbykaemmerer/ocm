@@ -23,6 +23,4 @@ export default (state) => `
       <img src="${state.img9}">
     </div>
   </div>
-<div id="arch-symbol" class="arch-symbol2"><img src="${state.img10}"></div>
-
 `;
