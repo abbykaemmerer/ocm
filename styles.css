@@ -102,6 +102,56 @@
     text-align: center;
   }
 
+  #tertiary h1{
+    font-size: 1em;
+  }
+
+  #tertiary i{
+    font-size: .8em;
+  }
+
+  #tertiary .medias-div{
+    margin: 2em;
+  }
+
+  #arch-symbol img{
+    width: 3em;
+  }
+
+  #arch-header, #seasonal-header, #hort-header {
+    font-size: 1.5em;
+  }
+
+  #weekly, #seasonal {
+    width: fit-content;
+    margin: 1em;
+  }
+
+  #weekly h4, #seasonal h4{
+    font-size: 1.3em;
+  }
+
+  #weekly ul {
+    padding: 0 10px;
+  }
+
+  #seasonal ul{
+    padding: 0 25px;
+  }
+
+  #ocm-symbol img{
+    width: 10em;
+    padding: 0 0 2em 0;
+  }
+
+  .paragraph h3 {
+    font-size: 1.3em;
+  }
+
+  #seasonal-symbol img {
+    width: 24em;
+  }
+
 }
 
 
@@ -525,9 +575,9 @@ a:hover {
   align-items: center;
 }
 
-.seasonal-list li{
+/* .seasonal-list li{
   list-style: none;
-}
+} */
 
 .seasonal-list ul {
   padding: 0;

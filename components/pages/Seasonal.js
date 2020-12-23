@@ -1,11 +1,11 @@
 export default (state) => `
 <div class="paragraph margin-bottom">
-<h1>${state.title}</h1>
+<h1 id="seasonal-header">${state.title}</h1>
 <p>
 Outdoor Color Magic installs and maintains spectacular seasonal flower beds and upscale planter displays for our residential and commercial clients.  Our creative and sustainable flower bed displays will enhance the appearance and enjoyment of your outdoor space, making beautiful flowers a part of your life.  The design team is able to tailor your flower displays to your unique property.  By taking into consideration the individual climate, sun exposure, and the aesthetic attributes of the site, your flowers will always reflect our standards of excellence through color, texture and elevation.
 </p>
 <div class="seasonal-list">
-<span class="seasonal-symbol"><img src="${state.img16}"></span>
+<span class="seasonal-symbol" id="seasonal-symbol"><img src="${state.img16}"></span>
 <ul>
   <li>Custom design</li>
   <li>All flowers and material</li>

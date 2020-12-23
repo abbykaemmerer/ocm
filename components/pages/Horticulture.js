@@ -1,6 +1,6 @@
 export default (state) => `
   <div class="paragraph">
-    <h1>${state.title}</h1>
+    <h1 id="hort-header">${state.title}</h1>
     <div>
       <h3>Residential Horticulture Programs</h3>
       <p class="margin-bottom"> We offer two outstanding residential outdoor environment programs.  Each program ensures that our client’s investment is properly maintained though horticultural excellence.
@@ -55,7 +55,7 @@ export default (state) => `
       </div>
     </div>
   </div>
-  <div class="ocm-symbol">
+  <div id="ocm-symbol" class="ocm-symbol">
   <img src="${state.img10}">
   </div>
   <div class="hort-gallery">
