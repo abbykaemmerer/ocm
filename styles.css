@@ -56,6 +56,10 @@
   #dropdown li {
     padding: 10px;
   }
+
+  #arch-symbol img {
+    width: 4em;
+  }
 }
 
 /* iPad */
