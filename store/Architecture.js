@@ -10,6 +10,7 @@ import img7 from '../pics/Environmental Architecture/IMG_6673.jpeg';
 import img8 from '../pics/Environmental Architecture/IMG_6670.JPG';
 import img9 from '../pics/Environmental Architecture/IMG_6684.jpeg';
 import img10 from '../pics/image 2.png';
+import img11 from '../pics/arch-drawing.jpg';
 
 
 export default {
@@ -26,5 +27,6 @@ export default {
     'img7': img7,
     'img8': img8,
     'img9': img9,
-    'img10': img10
+    'img10': img10,
+    'img11': img11
 };

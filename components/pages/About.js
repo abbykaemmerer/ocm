@@ -44,6 +44,9 @@ export default (state) => `
       </div>
     </div>
   </div>
+  <div class="extreme-home">
+  <img src="${state.img2}">
+  </div>
   <p class="center-align tag">We are a service company that loves to create Outdoor Color Magic!</p>
 </div>
 `;

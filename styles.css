@@ -615,6 +615,14 @@ a:hover {
   z-index: 1;
 }
 
+.arch-drawing {
+  text-align: center;
+}
+
+.arch-drawing img {
+  box-shadow: #4f326d 1px 1px 6px 0px;
+}
+
 .team-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -628,6 +636,7 @@ a:hover {
   font-family: 'Anton', sans-serif;
   font-size: 1.7em;
 }
+
 .accolades {
   margin: 2em auto;
   border: 2px solid #190137;
@@ -646,6 +655,11 @@ a:hover {
   color: #f7f5e9;
   padding: 15px;
   margin: 0;
+}
+
+.extreme-home {
+  text-align: center;
+  margin: 3em 0;
 }
 
 .tag {
