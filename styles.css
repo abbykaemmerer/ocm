@@ -17,6 +17,17 @@
   #secondary, #tertiary { width:100%; margin:0; border:none; }
 } */
 
+@media only screen and (max-width: 1824px){
+  #dropdown {
+    top: 8em;
+  }
+
+  #dropdown li {
+    padding: 10px;
+  }
+}
+
+/* iPad Pro */
 @media screen and (max-width: 1024px) {
   .form {
     margin: 20px;
@@ -36,8 +47,46 @@
     width: 70%;
     margin: 1em;
   }
+
+  #dropdown {
+    top: 9em;
+    left: 11.5em;
+  }
+
+  #dropdown li {
+    padding: 10px;
+  }
 }
 
+/* iPad */
+@media screen and (max-width: 768px){
+  #ocm-logo {
+    width: 25vw;
+  }
+
+  #dropdown {
+    top: 8em;
+    left: 6em;
+  }
+}
+
+/* Surface Duo */
+@media screen and (max-width: 540px){
+  #ocm-logo {
+    margin: 0;
+  }
+
+  #dropdown {
+    top: 5.5em;
+    left: 8em;
+  }
+
+  #dropdown li {
+    padding: 5px;
+  }
+}
+
+/* iPhone 6/7/8 PLUS */
 @media screen and (max-width: 414px) {
   #secondary {
     margin: 4em 0;
@@ -169,7 +218,7 @@
 
   #dropdown {
     top: 13em;
-    left: 2em;
+    left: 6em;
   }
 
   #dropdown li {
@@ -177,6 +226,21 @@
   }
 }
 
+/* iPhone 5/SE */
+@media screen and (max-width: 320px){
+
+  #dropdown {
+    left: 4em;
+  }
+
+  #ocm-logo {
+    width: 25vw;
+  }
+
+}
+
+
+/* iPhone 6/7/8/X */
 @media screen and (max-width: 375px) {
 
   #secondary {
@@ -223,7 +287,7 @@
   }
 
   #dropdown {
-    top: 8em;
+    top: 13em;
     right: 1.7em;
   }
 
@@ -371,6 +435,7 @@ a:visited {
   display: none;
   position: absolute;
   line-height: .5;
+  padding: 0;
 }
 
 li:hover #dropdown {

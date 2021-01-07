@@ -7,7 +7,7 @@ export default () => `
     <div>
     <a href = "mailto: outdoorcolormagic@gmail.com"><i class="far fa-envelope"></i></a>
     <i class="fab fa-facebook-f"></i>
-    <i class="fab fa-instagram"></i>
+    <a href= "https://instagram.com/outdoorcolor?igshid=7my9tlh7fm00"><i class="fab fa-instagram"></i></a>
     </div>
   </div>
 <hr/>
