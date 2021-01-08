@@ -90,8 +90,8 @@
   }
 }
 
-/* iPhone 6/7/8 PLUS */
-@media screen and (max-width: 414px) {
+/* iPhone 6/7/8 PLUS, 12 pro max */
+@media screen and (max-width: 428px) {
   #secondary {
     margin: 4em 0;
   }
@@ -290,7 +290,7 @@
 
   #dropdown {
     top: 13em;
-    right: 1.7em;
+    left: 4em;
   }
 
   #team-header {
