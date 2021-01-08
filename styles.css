@@ -91,7 +91,7 @@
 }
 
 /* iPhone 6/7/8 PLUS */
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 414px) {
   #secondary {
     margin: 4em 0;
   }
@@ -250,7 +250,7 @@
   }
 
   #ocm-logo {
-    width: 30vw;
+    width: auto;
   }
 
   #hey {
@@ -382,6 +382,7 @@
 
   #ocm-logo {
     width: 25vw;
+    height: 15vh;
   }
 
 }
