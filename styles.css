@@ -62,8 +62,8 @@
   }
 }
 
-/* iPad */
-@media screen and (max-width: 768px){
+/* iPad, iPad Pro 11 */
+@media screen and (max-width: 834px){
   #ocm-logo {
     width: 25vw;
   }
@@ -72,6 +72,19 @@
     top: 8em;
     left: 6em;
   }
+
+  #buttons {
+    margin: 4em 0;
+  }
+
+  #arch-drawing img {
+    width: 80%;
+  }
+
+  #ocm-symbol img {
+    width: 10em;
+  }
+
 }
 
 /* Surface Duo */
@@ -561,13 +574,13 @@ a:hover {
 }
 
 .form img {
-  padding-top: 40px;
   width: 65%;
 }
 
 .justify-img {
   display: flex;
   justify-content: flex-end;
+  align-self: center;
 }
 
 .form input, textarea {
