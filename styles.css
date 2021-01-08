@@ -91,7 +91,7 @@
 }
 
 /* iPhone 6/7/8 PLUS */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 428px) {
   #secondary {
     margin: 4em 0;
   }
@@ -227,6 +227,18 @@
 
   #dropdown li {
     padding: 5px;
+  }
+
+  #arch-drawing img {
+    max-width: 80%;
+  }
+
+  #arch-symbol {
+    width: 2em;
+  }
+
+  #ocm-symbol  img{
+    width: 5em;
   }
 }
 
