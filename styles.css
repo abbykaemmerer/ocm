@@ -230,20 +230,6 @@
   }
 }
 
-/* iPhone 5/SE */
-@media screen and (max-width: 320px){
-
-  #dropdown {
-    left: 4em;
-  }
-
-  #ocm-logo {
-    width: 25vw;
-  }
-
-}
-
-
 /* iPhone 6/7/8/X */
 @media screen and (max-width: 375px) {
 
@@ -332,7 +318,7 @@
   }
 
   #arch-symbol img{
-    width: 3em;
+    width: 2em;
   }
 
   #arch-header, #seasonal-header, #hort-header {
@@ -357,7 +343,7 @@
   }
 
   #ocm-symbol img{
-    width: 10em;
+    width: 5em;
     padding: 0 0 2em 0;
   }
 
@@ -367,6 +353,23 @@
 
   #seasonal-symbol img {
     width: 24em;
+  }
+
+  #arch-drawing img {
+    max-width: 80%;
+  }
+
+}
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px){
+
+  #dropdown {
+    left: 4em;
+  }
+
+  #ocm-logo {
+    width: 25vw;
   }
 
 }
@@ -729,6 +732,10 @@ a:hover {
 .extreme-home {
   text-align: center;
   margin: 3em 0;
+}
+
+.extreme-home img {
+  max-width: 90%;
 }
 
 .tag {

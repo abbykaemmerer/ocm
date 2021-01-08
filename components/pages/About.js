@@ -12,12 +12,9 @@ export default (state) => `
     We care for the environment by incorporating drought resistant plants, composting all used plant material back into the earth, limiting the use of plastic pots and using integrated pest management principles.  All of this keeps your plants healthy now and vibrant throughout the season.
     </p>
   </div>
-  <div class="team-pic">
-    <img src="${state.img1}" id="team-pic">
-  </div>
   <div class="team">
     <h2 class="underline" id="team-header">Meet The Touch of Magic Team</h2>
-    <p id="members">JOEL THODE <span id="pipe">|</span> ANNE BOURNEUF <span id="pipe">|</span> SEAN KRAHAM</p>
+    <p id="members">JOEL THODE <span id="pipe">|</span> ANNE BOURNEUF</p>
   </div>
   <div>
     <p>
@@ -50,3 +47,7 @@ export default (state) => `
   <p class="center-align tag">We are a service company that loves to create Outdoor Color Magic!</p>
 </div>
 `;
+
+{ /* <div class="team-pic">
+<img src="${state.img1}" id="team-pic">
+</div> */ }
