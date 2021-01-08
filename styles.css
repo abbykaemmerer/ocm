@@ -230,8 +230,8 @@
   }
 }
 
-/* iPhone 6/7/8/X */
-@media screen and (max-width: 375px) {
+/* iPhone 6/7/8/X/11/12pro */
+@media screen and (max-width: 380px) {
 
   #secondary {
     margin: 4em 0;
