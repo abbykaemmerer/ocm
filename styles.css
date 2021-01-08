@@ -85,6 +85,10 @@
     width: 10em;
   }
 
+  #phone {
+    width: 30%;
+  }
+
 }
 
 /* Surface Duo */
