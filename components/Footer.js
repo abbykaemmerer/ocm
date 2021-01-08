@@ -5,9 +5,9 @@ export default () => `
   <div>
     <h1>Find Us Here</h1>
     <div>
-    <a href = "mailto: outdoorcolormagic@gmail.com"><i class="far fa-envelope"></i></a>
-    <i class="fab fa-facebook-f"></i>
-    <a href= "https://instagram.com/outdoorcolor?igshid=7my9tlh7fm00"><i class="fab fa-instagram"></i></a>
+    <a href= "mailto: outdoorcolormagic@gmail.com"><i class="far fa-envelope"></i></a>
+    <a href= "https://m.facebook.com/Outdoor-Color-Magic-101369765216059" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href= "https://instagram.com/outdoorcolor?igshid=7my9tlh7fm00" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </div>
 <hr/>
