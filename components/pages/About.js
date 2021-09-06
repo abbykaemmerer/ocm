@@ -14,7 +14,6 @@ export default (state) => `
   </div>
   <div class="team">
     <h2 class="underline" id="team-header">Meet The Touch of Magic Team</h2>
-    <p id="members">JOEL THODE <span id="pipe">|</span> ANNE BOURNEUF</p>
   </div>
   <div>
     <p>
